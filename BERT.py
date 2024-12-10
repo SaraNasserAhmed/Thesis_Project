@@ -274,7 +274,7 @@ history = classifier_model.fit(x = train_ds,
                                callbacks=[early_stopping])
 
 
-# Alternatively, save the model in HDF5 format
+
 classifier_model.save("BERT_classifier_version_2.h5")
 
 
