@@ -50,9 +50,6 @@ model_1_history = model_1.fit(x = training_sentences,
                                                                        experiment_name="model_1_Dense")],
                               class_weight=class_weights)
 
-# Check training results (epochs results):
-# training_results = model_1.evaluate(val_set, val_labels)
-# print("Training Results: ", training_results)
 
 # Check predictions results:
 model_1_prediction_probabilities = model_1.predict(val_set)
